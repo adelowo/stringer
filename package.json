@@ -18,6 +18,18 @@
       "mode": "no-view"
     },
     {
+      "name": "snowflake",
+      "title": "snowflake",
+      "description": "Generate snowflake ID",
+      "mode": "no-view"
+    },
+    {
+      "name": "ksuid",
+      "title": "ksuid",
+      "description": "Generate ksuid",
+      "mode": "no-view"
+    },
+    {
       "name": "ulid",
       "title": "ulid",
       "description": "Generate ulid",
@@ -26,6 +38,8 @@
   ],
   "dependencies": {
     "@raycast/api": "^1.45.1",
+    "ksuid": "^3.0.0",
+    "sonyflake": "^1.1.2",
     "ulid": "^2.3.0",
     "uuid": "^9.0.0"
   },
